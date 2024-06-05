@@ -1,8 +1,8 @@
-const en = {
+const he = {
   common: {
-    ok: "OK!",
-    cancel: "Cancel",
-    back: "Back",
+    ok: "אשר",
+    cancel: "ביטול",
+    back: "חזרה",
   },
   welcomeScreen: {
     postscript:
@@ -11,7 +11,7 @@ const en = {
     exciting: "(ohh, this is exciting!)",
   },
   errorScreen: {
-    title: "Something went wrong!",
+    title: "משהו השתבש",
     friendlySubtitle:
       "This is the screen that your users will see in production when an error is thrown. You'll want to customize this message (located in `app/i18n/en.ts`) and probably the layout as well (`app/screens/ErrorScreen`). If you want to remove this entirely, check `app/app.tsx` for the <ErrorBoundary> component.",
     reset: "RESET APP",
@@ -24,11 +24,9 @@ const en = {
     },
   },
   home: {
-    homeTitle: "Home",
-    addPosition: "Add Position",
-    addGuard: "Add Guard",
+    homeTitle: "בית",
   },
 }
 
-export default en
-export type Translations = typeof en
+export default he
+export type Translations = typeof he
